@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-no-comment-textnodes */
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
           </p>
           <h2 className="py-4">Get to know me!</h2>
           <p className="py-2 text-gray-600">
-            // Let me be your go to developer :)
+            Let me be your go to developer :)
           </p>
           <p className="py-2 text-gray-600">
             Hello and welcome to my portfolio! My name is Suvigya Mishra and I
