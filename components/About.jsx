@@ -5,14 +5,14 @@ const About = () => {
     <div className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest text-[##05BFDB]">
+          <p className="uppercase text-xl tracking-widest text-[#2a9b82]">
             About
           </p>
           <h2 className="py-4">Get to know me!</h2>
-          <p className="py-2 text-gray-600">
+          <p className="py-2 text-gray-800">
             Let me be your go to developer :)
           </p>
-          <p className="py-2 text-gray-600">
+          <p className="py-2 text-gray-800">
             Hello and welcome to my portfolio! My name is Suvigya Mishra and I
             am a beginner MERN stack developer with over 1.5 years of
             experience. I am passionate about developing high-quality web
@@ -24,7 +24,7 @@ const About = () => {
             and version control. I enjoy learning new technologies and keeping
             up with the latest trends in the industry.
           </p>
-          <p className="py-2 text-gray-600">
+          <p className="py-2 text-gray-800">
             During my journey as a developer, I have worked on several projects
             ranging from simple web applications. I believe that my attention to
             detail, problem-solving skills, and ability to work collaboratively
@@ -33,7 +33,7 @@ const About = () => {
             projects and reach out if you have any questions or opportunities to
             work together.
           </p>
-          <p className="py-2 text-gray-600 underline cursor-pointer">
+          <p className="py-2 text-gray-800 underline cursor-pointer">
             Check out some of the projects I have worked in!
           </p>
         </div>
