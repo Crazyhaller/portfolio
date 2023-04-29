@@ -1,8 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import housemarketplace from '../public/assets/projects/housemarketplace.png'
 
-const ProjectItem = ({ title, backgroundImg, projectUrl }) => {
+const ProjectItem = ({ title, backgroundImg, projectUrl, technology }) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#2a9b82] to-[#709dff]">
       <Image
@@ -14,7 +13,7 @@ const ProjectItem = ({ title, backgroundImg, projectUrl }) => {
         <h3 className="text-2xl text-white tracking-wider text-center">
           {title}
         </h3>
-        <p className="pb-4 pt-2 text-white text-center">React.js</p>
+        <p className="pb-4 pt-2 text-white text-center">{technology}</p>
         <Link href={projectUrl}>
           <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
             More Info

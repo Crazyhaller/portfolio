@@ -14,15 +14,14 @@ const About = () => {
           </p>
           <p className="py-2 text-gray-800">
             Hello and welcome to my portfolio! My name is Suvigya Mishra and I
-            am a beginner MERN stack developer with over 1.5 years of
-            experience. I am passionate about developing high-quality web
-            applications and have worked on multiple projects to improve my
-            skills and gain practical experience. My technical skills include
-            proficiency in HTML, CSS, TailwindCSS, JavaScript, React.js,
-            Next.js, Node.js, Express.js and MongoDB. I have a strong foundation
-            in web development concepts and have also knowledge of Git, GitHub
-            and version control. I enjoy learning new technologies and keeping
-            up with the latest trends in the industry.
+            am a beginner MERN stack developer. I am passionate about developing
+            high-quality web applications and have worked on multiple projects
+            to improve my skills and gain practical experience. My technical
+            skills include proficiency in HTML, CSS, TailwindCSS, JavaScript,
+            React.js, Next.js, Node.js, Express.js and MongoDB. I have a strong
+            foundation in web development concepts and have also knowledge of
+            Git, GitHub and version control. I enjoy learning new technologies
+            and keeping up with the latest trends in the industry.
           </p>
           <p className="py-2 text-gray-800">
             During my journey as a developer, I have worked on several projects
