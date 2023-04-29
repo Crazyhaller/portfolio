@@ -25,31 +25,31 @@ const Projects = () => {
           <ProjectItem
             title="GitHub Finder"
             backgroundImg={githubfinder}
-            projectUrl="/housemarketplace"
+            projectUrl="/githubfinder"
             technology="React.js, GitHub API"
           />
           <ProjectItem
             title="To Do List"
             backgroundImg={todolist}
-            projectUrl="/housemarketplace"
+            projectUrl="/todolist"
             technology="Node.js, Express.js, MongoDB"
           />
           <ProjectItem
             title="SpaceX Clone"
             backgroundImg={spacex}
-            projectUrl="/housemarketplace"
+            projectUrl="/spacex"
             technology="HTML, CSS, JavaScript"
           />
           <ProjectItem
             title="Travel Website"
             backgroundImg={travel}
-            projectUrl="/housemarketplace"
+            projectUrl="/travel"
             technology="HTML, CSS, JavaScript"
           />
           <ProjectItem
             title="Next13 Project"
             backgroundImg={next13}
-            projectUrl="/housemarketplace"
+            projectUrl="/next13"
             technology="Next.js v13"
           />
         </div>
