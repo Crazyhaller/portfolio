@@ -23,12 +23,23 @@ const Main = () => {
             them in my projects.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub />
-            </div>
+            <Link
+              legacyBehavior
+              href="https://www.linkedin.com/in/suvigyamishra/"
+            >
+              <a>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <FaLinkedinIn />
+                </div>
+              </a>
+            </Link>
+            <Link legacyBehavior href="https://github.com/Crazyhaller">
+              <a>
+                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <FaGithub />
+                </div>
+              </a>
+            </Link>
             <Link
               legacyBehavior
               href="https://drive.google.com/drive/folders/1g88hKtSEJAtDEF0jOq_IMstDFf5Vu3nA?usp=sharing"
