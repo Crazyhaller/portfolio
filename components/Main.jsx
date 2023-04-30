@@ -27,14 +27,14 @@ const Main = () => {
               legacyBehavior
               href="https://www.linkedin.com/in/suvigyamishra/"
             >
-              <a>
+              <a target="_blank">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                   <FaLinkedinIn />
                 </div>
               </a>
             </Link>
             <Link legacyBehavior href="https://github.com/Crazyhaller">
-              <a>
+              <a target="_blank">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                   <FaGithub />
                 </div>
@@ -44,7 +44,7 @@ const Main = () => {
               legacyBehavior
               href="https://drive.google.com/drive/folders/1g88hKtSEJAtDEF0jOq_IMstDFf5Vu3nA?usp=sharing"
             >
-              <a>
+              <a target="_blank">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                   <BsFillPersonLinesFill />
                 </div>
