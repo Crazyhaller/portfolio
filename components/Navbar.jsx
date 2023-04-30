@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Logo from '../public/assets/logo.png'
 import { useState, useEffect } from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
@@ -57,12 +58,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image
-            src="/../public/assets/logo.png"
-            alt="/"
-            width="200"
-            height="100"
-          />
+          <Image src={Logo} alt="/" width="200" height="100" />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
