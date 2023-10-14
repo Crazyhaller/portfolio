@@ -21,6 +21,8 @@ const Main = () => {
             React, Node, Express and MongoDB along with Redux, Next.js and
             TailwindCSS. I am a quick learner and a team player. I am always
             ready to learn new technologies and implement them in my projects.
+            You can contact me on LinkedIn or mail me at
+            suvigyamadrid@gmail.com.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Link

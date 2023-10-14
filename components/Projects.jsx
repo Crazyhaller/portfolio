@@ -16,24 +16,6 @@ const Projects = () => {
         <h2 className="py-4">What I've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="House Marketplace"
-            backgroundImg={housemarketplace}
-            projectUrl="/housemarketplace"
-            technology="React.js, Firebase"
-          />
-          <ProjectItem
-            title="E-Social"
-            backgroundImg={esocial}
-            projectUrl="/e-social"
-            technology="MERN Stack, Redux"
-          />
-          <ProjectItem
-            title="Project Manager"
-            backgroundImg={projectmanager}
-            projectUrl="/project-manager"
-            technology="MERN Stack, GraphQL"
-          />
-          <ProjectItem
             title="Shop Wave"
             backgroundImg={shopwave}
             projectUrl="/shop-wave"
@@ -44,6 +26,25 @@ const Projects = () => {
             backgroundImg={threadx}
             projectUrl="/thread-x"
             technology="Next.js, Clerk"
+          />
+          <ProjectItem
+            title="E-Social"
+            backgroundImg={esocial}
+            projectUrl="/e-social"
+            technology="MERN Stack, Redux"
+          />
+          <ProjectItem
+            title="House Marketplace"
+            backgroundImg={housemarketplace}
+            projectUrl="/housemarketplace"
+            technology="React.js, Firebase"
+          />
+
+          <ProjectItem
+            title="Project Manager"
+            backgroundImg={projectmanager}
+            projectUrl="/project-manager"
+            technology="MERN Stack, GraphQL"
           />
         </div>
       </div>

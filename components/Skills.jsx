@@ -12,6 +12,7 @@ import Nextjs from '../public/assets/skills/nextjs.png'
 import Tailwindcss from '../public/assets/skills/tailwind.png'
 import Mongo from '../public/assets/skills/mongo.png'
 import GraphQL from '../public/assets/skills/graphql.png'
+import Typescript from '../public/assets/skills/typescript.png'
 
 const Skills = () => {
   return (
@@ -59,6 +60,16 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Javascript</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 easie-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Typescript} width={64} height={64} alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Typescript</h3>
               </div>
             </div>
           </div>

@@ -28,14 +28,17 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">Suvigya Mishra</h2>
-                <p>Full MERN Stack Developer</p>
+                <p>Full MERN Stack Developer || Next.js</p>
                 <p className="py-4">
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8">Connect With Me</p>
+                <p className="uppercase pt-8">
+                  Contact form not active at the moment, please contact me on
+                  LinkedIn or Email
+                </p>
                 <div className="flex items-center justify-between py-4">
                   <a
                     href="https://www.linkedin.com/in/suvigyamishra/"
@@ -58,6 +61,7 @@ const Contact = () => {
                   <Link
                     legacyBehavior
                     href="https://drive.google.com/drive/folders/1g88hKtSEJAtDEF0jOq_IMstDFf5Vu3nA?usp=sharing"
+                    target="_blank"
                   >
                     <a>
                       <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
