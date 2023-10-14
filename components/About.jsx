@@ -18,19 +18,21 @@ const About = () => {
             high-quality web applications and have worked on multiple projects
             to improve my skills and gain practical experience. My technical
             skills include proficiency in HTML, CSS, TailwindCSS, JavaScript,
-            React.js, Next.js, Node.js, Express.js and MongoDB. I have a strong
-            foundation in web development concepts and have also knowledge of
-            Git, GitHub and version control. I enjoy learning new technologies
-            and keeping up with the latest trends in the industry.
+            React.js, Next.js, Node.js, Express.js, MongoDB, Next.js,
+            Typescript, React-Bootstrap, SQL & MySQL. I have a strong foundation
+            in web development concepts and have also knowledge of Git, GitHub
+            and version control. I enjoy learning new technologies and keeping
+            up with the latest trends in the industry.
           </p>
           <p className="py-2 text-gray-800">
             During my journey as a developer, I have worked on several projects
-            ranging from simple web applications. I believe that my attention to
-            detail, problem-solving skills, and ability to work collaboratively
-            make me a valuable asset to any team. Thank you for taking the time
-            to visit my portfolio. Please feel free to take a look at my
-            projects and reach out if you have any questions or opportunities to
-            work together.
+            ranging from simple web applications and have completed 2
+            Internships as a Full Stack Developer. I believe that my attention
+            to detail, problem-solving skills, and ability to work
+            collaboratively make me a valuable asset to any team. Thank you for
+            taking the time to visit my portfolio. Please feel free to take a
+            look at my projects and reach out if you have any questions or
+            opportunities to work together.
           </p>
           <p className="py-2 text-gray-800 underline cursor-pointer">
             Check out some of the projects I have worked in!

@@ -18,9 +18,9 @@ const Main = () => {
           <p className="py-4 text-gray-700 max-w-[70%] m-auto">
             I am a Full MERN Stack Developer with a passion for building web
             apps and websites. I have a good knowledge of HTML, CSS, JavaScript,
-            React, Node, Express and MongoDB. I am a quick learner and a team
-            player. I am always ready to learn new technologies and implement
-            them in my projects.
+            React, Node, Express and MongoDB along with Redux, Next.js and
+            TailwindCSS. I am a quick learner and a team player. I am always
+            ready to learn new technologies and implement them in my projects.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Link

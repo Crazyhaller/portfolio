@@ -1,6 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import ProjectItem from './ProjectItem'
 import housemarketplace from '../public/assets/projects/housemarketplace.png'
+import esocial from '../public/assets/projects/e-social.jpeg'
+import projectmanager from '../public/assets/projects/project-manager.png'
+import shopwave from '../public/assets/projects/shop-wave.png'
+import threadx from '../public/assets/projects/thread-x.png'
 
 const Projects = () => {
   return (
@@ -16,6 +20,30 @@ const Projects = () => {
             backgroundImg={housemarketplace}
             projectUrl="/housemarketplace"
             technology="React.js, Firebase"
+          />
+          <ProjectItem
+            title="E-Social"
+            backgroundImg={esocial}
+            projectUrl="/e-social"
+            technology="MERN Stack, Redux"
+          />
+          <ProjectItem
+            title="Project Manager"
+            backgroundImg={projectmanager}
+            projectUrl="/project-manager"
+            technology="MERN Stack, GraphQL"
+          />
+          <ProjectItem
+            title="Shop Wave"
+            backgroundImg={shopwave}
+            projectUrl="/shop-wave"
+            technology="MERN Stack, PayPal"
+          />
+          <ProjectItem
+            title="Thread-X"
+            backgroundImg={threadx}
+            projectUrl="/thread-x"
+            technology="Next.js, Clerk"
           />
         </div>
       </div>
