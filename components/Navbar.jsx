@@ -63,16 +63,16 @@ const Navbar = () => {
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-8 text-sm uppercase hover:border-b">Home</li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-8 text-sm uppercase hover:border-b">About</li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-8 text-sm uppercase hover:border-b">Skills</li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-8 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
@@ -80,15 +80,13 @@ const Navbar = () => {
               href="https://www.linkedin.com/in/suvigyamishra/"
               target="_blank"
             >
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Contact
-              </li>
+              <li className="ml-8 text-sm uppercase hover:border-b">Contact</li>
             </Link>
             <Link
               href="https://drive.google.com/drive/folders/1g88hKtSEJAtDEF0jOq_IMstDFf5Vu3nA?usp=sharing"
               target="_blank"
             >
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-8 text-sm uppercase hover:border-b">
                 Rsume /CV
               </li>
             </Link>

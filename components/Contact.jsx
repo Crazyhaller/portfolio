@@ -35,9 +35,9 @@ const Contact = () => {
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8">
+                <p className="uppercase pt-8 text-red-500">
                   Contact form not active at the moment, please contact me on
-                  LinkedIn or Email
+                  LinkedIn or mail me at suvigyamadrid@gmail.com
                 </p>
                 <div className="flex items-center justify-between py-4">
                   <a
