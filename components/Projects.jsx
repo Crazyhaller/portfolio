@@ -1,11 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import ProjectItem from './ProjectItem'
 import housemarketplace from '../public/assets/projects/housemarketplace.png'
-import githubfinder from '../public/assets/projects/githubfinder.png'
-import todolist from '../public/assets/projects/todolist.png'
-import next13 from '../public/assets/projects/next13.png'
-import spacex from '../public/assets/projects/spacex.png'
-import travel from '../public/assets/projects/travel.png'
 
 const Projects = () => {
   return (
@@ -21,36 +16,6 @@ const Projects = () => {
             backgroundImg={housemarketplace}
             projectUrl="/housemarketplace"
             technology="React.js, Firebase"
-          />
-          <ProjectItem
-            title="GitHub Finder"
-            backgroundImg={githubfinder}
-            projectUrl="/githubfinder"
-            technology="React.js, GitHub API"
-          />
-          <ProjectItem
-            title="To Do List"
-            backgroundImg={todolist}
-            projectUrl="/todolist"
-            technology="Node.js, Express.js, MongoDB"
-          />
-          <ProjectItem
-            title="SpaceX Clone"
-            backgroundImg={spacex}
-            projectUrl="/spacex"
-            technology="HTML, CSS, JavaScript"
-          />
-          <ProjectItem
-            title="Travel Website"
-            backgroundImg={travel}
-            projectUrl="/travel"
-            technology="HTML, CSS, JavaScript"
-          />
-          <ProjectItem
-            title="Next13 Project"
-            backgroundImg={next13}
-            projectUrl="/next13"
-            technology="Next.js v13"
           />
         </div>
       </div>
