@@ -17,16 +17,13 @@ const Contact = () => {
   const submitHandler = async (e) => {
     e.preventDefault()
     try {
-      const { data } = await axios.post(
-        'https://portfolio-fzb8.onrender.com/contact',
-        {
-          name,
-          phone,
-          subject,
-          email,
-          message,
-        }
-      )
+      await axios.post('https://portfolio-fzb8.onrender.com/contact', {
+        name,
+        phone,
+        subject,
+        email,
+        message,
+      })
       alert("Thanks for contacting me, I'll get back to you soon.")
       setName('')
       setPhone('')
