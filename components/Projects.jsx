@@ -5,6 +5,7 @@ import esocial from '../public/assets/projects/e-social.jpeg'
 import projectmanager from '../public/assets/projects/project-manager.png'
 import shopwave from '../public/assets/projects/shop-wave.png'
 import threadx from '../public/assets/projects/thread-x.png'
+import bestdeal from '../public/assets/projects/bestdeal.png'
 
 const Projects = () => {
   return (
@@ -26,6 +27,12 @@ const Projects = () => {
             backgroundImg={threadx}
             projectUrl="/thread-x"
             technology="Next.js, Clerk"
+          />
+          <ProjectItem
+            title="Best Deal"
+            backgroundImg={bestdeal}
+            projectUrl="/bestdeal"
+            technology="Next.js, Typescript"
           />
           <ProjectItem
             title="E-Social"
