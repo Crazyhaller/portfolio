@@ -1,13 +1,43 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
-import { AiOutlineMail } from 'react-icons/ai'
+import { useState } from 'react'
+import axios from 'axios'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import ContactImg from '../public/assets/contact.jpg'
 
 const Contact = () => {
+  const [name, setName] = useState('')
+  const [phone, setPhone] = useState('')
+  const [subject, setSubject] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+
+  const submitHandler = async (e) => {
+    e.preventDefault()
+    try {
+      const { data } = await axios.post(
+        'https://portfolio-fzb8.onrender.com/contact',
+        {
+          name,
+          phone,
+          subject,
+          email,
+          message,
+        }
+      )
+      alert("Thanks for contacting me, I'll get back to you soon.")
+      setName('')
+      setPhone('')
+      setSubject('')
+      setEmail('')
+      setMessage('')
+    } catch (error) {
+      alert(error.response.data.message)
+    }
+  }
+
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
@@ -35,10 +65,7 @@ const Contact = () => {
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8 text-red-500">
-                  Contact form not active at the moment, please contact me on
-                  LinkedIn or mail me at suvigyamadrid@gmail.com
-                </p>
+                <h2 className="py-2">Contact Info</h2>
                 <div className="flex items-center justify-between py-4">
                   <a
                     href="https://www.linkedin.com/in/suvigyamishra/"
@@ -78,7 +105,7 @@ const Contact = () => {
 
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form onSubmit={submitHandler}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
@@ -86,6 +113,8 @@ const Contact = () => {
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                       name="name"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                     />
                   </div>
                   <div className="flex flex-col">
@@ -96,6 +125,8 @@ const Contact = () => {
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                       name="phone"
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
                     />
                   </div>
                 </div>
@@ -105,6 +136,8 @@ const Contact = () => {
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
                     name="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -113,6 +146,8 @@ const Contact = () => {
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
                     name="subject"
+                    value={subject}
+                    onChange={(e) => setSubject(e.target.value)}
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -121,9 +156,11 @@ const Contact = () => {
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="8"
                     name="message"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4">
+                <button type="submit" className="w-full p-4 text-gray-100 mt-4">
                   Send Message
                 </button>
               </form>
