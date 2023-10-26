@@ -87,7 +87,7 @@ const Navbar = () => {
               target="_blank"
             >
               <li className="ml-8 text-sm uppercase hover:border-b">
-                Rsume /CV
+                Resume /CV
               </li>
             </Link>
           </ul>
@@ -151,6 +151,14 @@ const Navbar = () => {
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
+                </li>
+              </Link>
+              <Link
+                href="https://drive.google.com/drive/folders/1g88hKtSEJAtDEF0jOq_IMstDFf5Vu3nA?usp=sharing"
+                target="_blank"
+              >
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Resume
                 </li>
               </Link>
             </ul>
