@@ -158,7 +158,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <button type="submit" className="w-full p-4 text-blue-800 mt-4">
-                  Send Message - It takes a while to go through dont worry
+                  Send Message
                 </button>
               </form>
             </div>
