@@ -160,6 +160,10 @@ const Contact = () => {
                 <button type="submit" className="w-full p-4 text-blue-800 mt-4">
                   Send Message
                 </button>
+                <label className="uppercase text-sm py-2">
+                  It may take a while for the query to go through please only
+                  click the button once.
+                </label>
               </form>
             </div>
           </div>
