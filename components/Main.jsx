@@ -14,15 +14,15 @@ const Main = () => {
           <h1 className="py-4 text-gray-800">
             Hi, I'm <span className="text-[#2a9b82]">Suvigya</span>
           </h1>
-          <h1 className="py-2 text-gray-800">A MERN Stack Developer</h1>
+          <h1 className="py-2 text-gray-800">
+            A MERN Stack | Next.js Developer
+          </h1>
           <p className="py-4 text-gray-700 max-w-[70%] m-auto">
             I am a Full MERN Stack Developer with a passion for building web
-            apps and websites. I have a good knowledge of HTML, CSS, JavaScript,
-            React, Node, Express and MongoDB along with Redux, Next.js and
-            TailwindCSS. I am a quick learner and a team player. I am always
-            ready to learn new technologies and implement them in my projects.
-            You can contact me on LinkedIn or mail me at
-            suvigyamadrid@gmail.com.
+            apps and websites. You can check out some of my projects below and
+            visit the live link or the code for it. I am always ready to learn
+            new technologies and implement them in my projects. You can contact
+            me on LinkedIn or mail me at suvigyamadrid@gmail.com.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Link
