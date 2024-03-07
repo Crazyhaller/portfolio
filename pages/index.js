@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Suvigya Mishra Portfolio</title>
-        <meta name="description" content="Suvigya Mishra Portfolio" />
+        <title>Suvigya Mishra Projects</title>
+        <meta name="description" content="Suvigya Mishra Projects" />
         <link rel="icon" href="/favicon.io" />
       </Head>
       <Navbar />
