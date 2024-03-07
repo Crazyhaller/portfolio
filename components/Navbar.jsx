@@ -65,29 +65,9 @@ const Navbar = () => {
             <Link href="/">
               <li className="ml-8 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/#about">
-              <li className="ml-8 text-sm uppercase hover:border-b">About</li>
-            </Link>
-            <Link href="/#skills">
-              <li className="ml-8 text-sm uppercase hover:border-b">Skills</li>
-            </Link>
             <Link href="/#projects">
               <li className="ml-8 text-sm uppercase hover:border-b">
                 Projects
-              </li>
-            </Link>
-            <Link
-              href="https://www.linkedin.com/in/suvigyamishra/"
-              target="_blank"
-            >
-              <li className="ml-8 text-sm uppercase hover:border-b">Contact</li>
-            </Link>
-            <Link
-              href="https://drive.google.com/drive/folders/1g88hKtSEJAtDEF0jOq_IMstDFf5Vu3nA?usp=sharing"
-              target="_blank"
-            >
-              <li className="ml-8 text-sm uppercase hover:border-b">
-                Resume /CV
               </li>
             </Link>
           </ul>
@@ -133,32 +113,9 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link href="/#about">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  About
-                </li>
-              </Link>
-              <Link href="/#skills">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Skills
-                </li>
-              </Link>
               <Link href="/#projects">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Projects
-                </li>
-              </Link>
-              <Link href="/#contact">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Contact
-                </li>
-              </Link>
-              <Link
-                href="https://drive.google.com/drive/folders/1g88hKtSEJAtDEF0jOq_IMstDFf5Vu3nA?usp=sharing"
-                target="_blank"
-              >
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Resume
                 </li>
               </Link>
             </ul>
